@@ -1,12 +1,32 @@
 import Image from "next/image";
 import Link from "next/link";
 import React, { useState, useEffect } from "react";
-
+import {useRouter} from "next/router";
 import { AiOutlineMenu, AiOutlineClose, AiOutlineMail } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { BsCalendarWeek } from "react-icons/bs";
 
 const Navbar = () => {
+  const [navBg, setNavBg] = useState('#f6f6f6');
+  const [linkColor, setLinkColor] = useState('#878883');
+  
+  const router = useRouter()
+  useEffect(() => {
+    if (
+      router.asPath === '/portfolio' ||
+      router.asPath === '/crypto' ||
+      router.asPath === '/crisiscoins' ||
+      router.asPath === '/carbonite'
+    ) {
+      setNavBg('transparent');
+      setLinkColor('#878883');
+    } else {
+      setNavBg('#f6f6f6');
+      setLinkColor('#878883');
+    }
+  }, [router]);
+
+
   const [nav, setNav] = useState(false);
   const handleNav = () => {
     setNav(!nav);
@@ -26,6 +46,7 @@ const Navbar = () => {
 
   return (
     <div
+     style={{ backgroundColor: `${navBg}` }}
       className={
         shadow
           ? "fixed w-full h-20 shadow-sm z-[100]"
@@ -42,7 +63,7 @@ const Navbar = () => {
           />
         </Link>
         <div>
-          <ul className="hidden md:flex">
+          <ul style={{ color: `${linkColor}` }}  className="hidden md:flex">
             <Link href="/">
               <li className="ml-10 text-sm uppercase hover:border-b">Home</li>
             </Link>
@@ -64,7 +85,9 @@ const Navbar = () => {
             </Link>
           </ul>
           {/* Hamburger Icon Block */}
-          <div onClick={handleNav} className="md:hidden">
+          <div 
+          style={{ color: `${linkColor}` }}
+          onClick={handleNav} className="md:hidden">
             <AiOutlineMenu size={25} />
           </div>
         </div>
