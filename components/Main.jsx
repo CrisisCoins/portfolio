@@ -15,9 +15,7 @@ const Main = () => {
           </p>
           <h1 className="py-4 text-[#878883]">
             Hi, my name is
-            <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#878883] to-[#41495c]">
-              Michael
-            </span>
+            <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#878883] to-[#41495c]"> Michael</span>
           </h1>
           <h1 className="py-2 text-[#878883]">And I am a FullStack</h1>
           <div>
