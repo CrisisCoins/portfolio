@@ -36,14 +36,14 @@ const About = () => {
             Here are my projects...
           </p>
         </div>
-        <div className="w-full h-auto m-auto bg-white text-center rounded-3xl border border-gray-300 shadow-lg p-10 max-w-xs hover:scale-105 ease-in duration-300">
-          <Image
-            className="mb-3 w-32 h-32 rounded-full border mx-auto"
-            src="/../public/assets/designer.png"
-            alt="/"
-            width="100"
-            height="100"
-          />
+        <div className="w-full h-auto m-auto bg-[#f6f6f6] text-center rounded-3xl border border-[#878883]/70
+            shadow-md shadow-[#34393f]/40 p-10 max-w-xs hover:scale-105 ease-in duration-300">
+           <Image className="mb-3 w-32 h-32 rounded-full border mx-auto"
+                  src="/designer.png"
+                  width={100}
+                  height={100}
+                  alt="Michael Levi"
+                />
           <h1 className="text-lg text-[#34393f]"> Michael Levi </h1>
           <h3 className="text-sm text-[#878883]"> FullStack Developer </h3>
           <p className="text-xs text-[#878883] mt-4">

@@ -3,7 +3,6 @@ import Link from "next/link";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { BsCalendarWeek } from "react-icons/bs";
 import { AiOutlineMail } from "react-icons/ai";
-import Typed from "react-typed";
 
 const Main = () => {
   return (
@@ -14,18 +13,12 @@ const Main = () => {
             Building tomorrow, today...
           </p>
           <h1 className="py-4 text-[#878883]">
-            Hi, my name is
+            Hi, My Name Is
             <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#878883] to-[#41495c]"> Michael</span>
           </h1>
-          <h1 className="py-2 text-[#878883]">And I am a FullStack</h1>
+          <h1 className="py-2 text-[#878883]">And I Am A</h1>
+          <h1 className="py-2 text-[#878883]"> FullStack Developer</h1>
           <div>
-            <Typed
-              className="text-4xl sm:text-7xl text-[#41495c]"
-              strings={["Web", "Blockchain", "Mobile", "Developer."]}
-              typeSpeed={120}
-              backSpeed={140}
-              loop
-            />
           </div>
           <p className="py-4 text-[#878883] max-w-[70%] m-auto">
             I am a full-stack developer specializing in web, mobile and
