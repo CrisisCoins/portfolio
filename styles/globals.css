@@ -3,39 +3,42 @@
 @tailwind utilities;
 
 
-/* Project Color Pallet: 
-    #CE4532 Jasper RGB: (206, 69, 50)
-    #F8FCFF Ghost White RGB: (248, 252, 255)
-    #8ca2af Cadet Grey RGB: (140, 162, 175)
-    #191919 Eerie Black RGB: (25, 25, 25) 
-    #283048 → #859398 Titanium Gradient */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;700&display=swap');
+/* Implemented Project Color Palette
 
-    html {
-        scroll-behavior: smooth;
-      }
-      
-      @layer base {
-        body {
-          @apply bg-[#F8FCFF] text-[#8ca2af] tracking-wide
-        }
-      
-        h1, h2, h3, h4, h5, h6 {
-          @apply font-bold
-        }
-      
-        h1 {
-          @apply text-4xl sm:text-5xl md:text-6xl
-        }
-      
-        h2 {
-          @apply text-3xl sm:text-4xl
-        }
-        
-        li {
-          @apply cursor-pointer
-        }
-      
-        button {
-            @apply border border-gray-200 bg-gray-100 text-gray-700 rounded-md px-4 py-2 m-2 uppercase
-        }
-      }
+Cultured    Hex: #f6f6f6
+Titanium    Hex: #878883
+Outer Space Hex: #41495c 
+
+Onyx        Hex: #34393f 
+Onyx shadow-[#34393f]/40 */
+
+html {
+    scroll-behavior: smooth;
+}
+
+@layer base {
+    body {
+        @apply bg-[#f6f6f6] text-[#878883] tracking-wide
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        @apply font-bold
+    }
+
+    h1 {
+        @apply text-4xl sm:text-5xl md:text-6xl
+    }
+
+    h2 {
+       @apply text-3xl sm:text-4xl 
+    }
+
+    li {
+        @apply cursor-pointer
+    }
+
+    button {
+        @apply p-2 pl-5 pr-5 bg-transparent border-2 border-[#34393f] text-[#41495c] text-lg rounded-lg hover:bg-[#878883] hover:text-gray-100 
+    }
+}
