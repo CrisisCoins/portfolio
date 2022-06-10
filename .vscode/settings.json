@@ -4,7 +4,8 @@
         "crisiscoins",
         "nextauth",
         "springboot",
-        "tailwindcss"
+        "tailwindcss",
+        "tsutils"
     ],
     "cSpell.ignoreWords": [
         "portfo"
