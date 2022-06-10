@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
-import tokenImg from "/../portfolio/public/assets/projects/token.png";
+import tokenImg from "/portfolio/public/assets/projects/token.png";
 
 const crypto = () => {
   return (
