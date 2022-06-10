@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
-import crisisImg from "/portfolio/public/assets/projects/crisis.png";
+import crisisImg from "/../portfolio/public/assets/projects/crisis.png";
 
 const crisiscoins = () => {
   return (
