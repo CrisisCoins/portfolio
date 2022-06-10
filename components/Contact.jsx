@@ -19,11 +19,13 @@ const Contact = () => {
           <div className="col-span-3 lg:col-span-2 w-full h-full shadow-md shadow-[#34393f]/40 rounded-xl p-4">
             <div className="lg:p-4 h-full">
               <div>
-                <img
-                  className="rounded-xl hover:scale-105 ease-in duration-300"
-                  src="https://images.unsplash.com/photo-1508780709619-79562169bc64?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
-                  alt="/"
-                />
+              <Image className="rounded-3xl"
+                    src="/email.png"
+                    layout="responsive"
+                    width={100} 
+                    height={100} 
+                    alt="Email Image"
+                  />
               </div>
               <div>
                 <h2 className="py-2">Michael Levi</h2>
