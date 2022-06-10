@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
-import carbonImg from "/../portfolio/public/assets/projects/carbonite.png";
+import carbonImg from "../public/carbonite.png";
 
 const carbonite = () => {
   return (
@@ -14,7 +14,7 @@ const carbonite = () => {
           layout="fill"
           objectFit="cover"
           src={carbonImg}
-          alt="/"
+          alt="Carbonite Image"
         />
         <div
           className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%]

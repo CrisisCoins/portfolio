@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
-import tokenImg from "/../portfolio/public/assets/projects/token.png";
+import trackerImg from "../public/tracker.png";
 
 const crypto = () => {
   return (
@@ -13,7 +13,7 @@ const crypto = () => {
           className="absolute z-1"
           layout="fill"
           objectFit="cover"
-          src={tokenImg}
+          src={trackerImg}
           alt="/"
         />
         <div

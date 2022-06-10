@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
-import portfoImg from "/../portfolio/public/assets/projects/portfolio.png";
+import portfoImg from "../public/portfolio.png";
 
 const portfolio = () => {
   return (

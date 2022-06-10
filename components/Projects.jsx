@@ -3,10 +3,10 @@ import Link from "next/link";
 import React from "react";
 
 import ProjectItem from "./ProjectItem";
-import carbonImg from "../public/assets/projects/carbonite.png";
-import tokenImg from "../public/assets/projects/token.png";
-import crisisImg from "../public/assets/projects/crisis.png";
-import portfoImg from "../public/assets/projects/portfolio.png";
+import carbonImg from "../public/carbonite.png";
+import tokenImg from "../public/tracker.png";
+import crisisImg from "../public/crisis.png";
+import portfoImg from "../public/portfolio.png";
 
 const Projects = () => {
   return (
