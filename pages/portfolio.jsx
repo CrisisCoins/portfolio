@@ -33,12 +33,12 @@ const portfolio = () => {
             This application was built as my main development portfolio and
             display all of my current completed projects.
           </p>
-          <Link href="https://portfolio-7nmp4cu32-0x4a5.vercel.app">
+          <Link href="https://portfolio-crisiscoins.vercel.app">
             <a>
               <button className="px-8 py-2 mt-4 mr-8">Demo</button>
             </a>
           </Link>
-          <Link href="https://github.com/0x4a5/portfolio">
+          <Link href="https://github.com/CrisisCoins/portfolio">
             <a>
               <button className="px-8 py-2 mt-4">Code</button>
             </a>

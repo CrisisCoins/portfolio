@@ -20,7 +20,7 @@ const crypto = () => {
           className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%]
           translate-y-[-50%] text-[#f6f6f6] z-10 p-2"
         >
-          <h2 className="py-2">Crypto Price LiveFeed</h2>
+          <h2 className="py-2">Enterprise User dashboard</h2>
           <h3>ReactJS / Tailwind / Coin Gecko API</h3>
         </div>
       </div>
@@ -30,21 +30,14 @@ const crypto = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            This application allows the end-user to conduct a live search for
-            any token of choice. The results display the coins data including
-            the name, its current token price as well as its market cap and 24h
-            volume. Lastly, the application displays conditional token data such
-            that it will display a “green color block and an up arrow” for any
-            currency that increases in value and a “red color block and a down
-            arrow” for any currency that has lost some of its value in the
-            market.
+          A responsive enterprise level Next JS user dashboard styled with tailwind css.
           </p>
-          <Link href="https://0x4a5.github.io/tokentracker/">
+          <Link href="https://dashboard-baylrjf87-crisiscoins.vercel.app">
             <a>
               <button className="px-8 py-2 mt-4 mr-8">Demo</button>
             </a>
           </Link>
-          <Link href="https://github.com/0x4a5/tokentracker">
+          <Link href="https://github.com/CrisisCoins/dashboard">
             <a>
               <button className="px-8 py-2 mt-4">Code</button>
             </a>
@@ -55,13 +48,7 @@ const crypto = () => {
             <p className="text-center font-bold pb-2">Technologies</p>
             <div className="grid grid-cols-3 md:grid-cols-1">
               <p className="text-[#878883] py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> ReactJS
-              </p>
-              <p className="text-[#878883] py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> React Routing
-              </p>
-              <p className="text-[#878883] py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> Coin Gecko API
+                <RiRadioButtonFill className="pr-1" /> NextJS
               </p>
               <p className="text-[#878883] py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" /> JavaScript
@@ -70,7 +57,7 @@ const crypto = () => {
                 <RiRadioButtonFill className="pr-1" /> HTML
               </p>
               <p className="text-[#878883] py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> CSS
+                <RiRadioButtonFill className="pr-1" /> Tailwind CSS
               </p>
             </div>
           </div>
