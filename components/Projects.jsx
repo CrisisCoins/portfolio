@@ -23,7 +23,7 @@ const Projects = () => {
             projectUrl="/carbonite"
           />
           <ProjectItem
-            title="Token Tracker"
+            title="Enterprise Dashboard"
             backgroundImg={tokenImg}
             projectUrl="/crypto"
           />
